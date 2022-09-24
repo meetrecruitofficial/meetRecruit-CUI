@@ -7,7 +7,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {overflow-y: hidden;}
+body {
+  overflow-y: hidden;
+}
 
 .hero {
   background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
@@ -18,6 +20,15 @@ body {overflow-y: hidden;}
   height: 100vh;
   overflow: hidden;
   object-fit: contain;
+}
+
+/* Nav */
+
+nav .logo img {
+  width: 174px;
+  height: fit-content;
+  margin-top: -50px;
+  margin-bottom: -50px;
 }
 
 .hero ul li {
@@ -55,7 +66,6 @@ p {
   font-size: 64px;
   line-height: 80px;
   padding: 10px 0;
-  /* letter-spacing: 0.18rem; */
 }
 
 #come p {
@@ -69,7 +79,7 @@ p {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .hero #newsletter .message p {
@@ -87,6 +97,10 @@ padding-bottom: 60px;
   border: none;
 }
 
+.hero #newsletter input:focus {
+  outline: none;
+}
+
 .hero #newsletter button {
   background: #0082ad;
   color: #fff;
@@ -99,105 +113,103 @@ padding-bottom: 60px;
 }
 
 .hero #newsletter #links p {
-    font-weight: 700;
-    font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-
-.hero #newsletter #links ul li{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding: 15px;
-    background: #fff;
-    text-align: center;
-    margin: 0 7px;
-    opacity: 1;
+.hero #newsletter #links ul li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 15px;
+  background: #fff;
+  text-align: center;
+  margin: 0 7px;
+  opacity: 1;
 }
 
 .hero #newsletter #links ul {
-    padding: 0;
+  padding: 0;
 }
 
 .hero #newsletter button:hover {
-    background: blue;
+  background: blue;
 }
 
-.hero #newsletter #links ul li:hover{
-    opacity: .9;
+.hero #newsletter #links ul li:hover {
+  opacity: 0.9;
 }
 
 /* Media Query */
 
-@media (max-width: 840px){
-    .hero #newsletter {
-        padding-top: 80px;
-    }
+@media (max-width: 840px) {
+  .hero #newsletter {
+    padding-top: 80px;
+  }
 
-    .hero #newsletter button {
-        transform: translateX(0%);
-        transform: translateY(-170%);
-        margin-left: 290px;
-    }
+  .hero #newsletter button {
+    transform: translateX(0%);
+    transform: translateY(-170%);
+    margin-left: 290px;
+  }
 
-    .hero #newsletter {
-        flex-wrap: nowrap;
-        padding-bottom: 0px;
-    }
+  .hero #newsletter {
+    flex-wrap: nowrap;
+    padding-bottom: 0px;
+  }
 
-    #come h2 {
-        font-size: 35px;
-        font-weight: 700;
-        text-align: center;
-        line-height: 40px;
-    }
-
+  #come h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+  }
 }
 
 @media (max-width: 477px) {
-    #come h1 {
-        font-weight: 600;
-        font-size: 47px;
-        line-height: 30px;
-    }
+  #come h1 {
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 30px;
+  }
 
-    #come h2 {
-        font-size: 45px;
-        font-weight: 600;
-        line-height: 40px;
-    }
+  #come h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 40px;
+  }
 
-    #come p {
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 30.57px;
-    }
+  #come p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30.57px;
+  }
 
-    .hero #newsletter #links p {
-        font-weight: 600;
-        font-size: 15px;
-        padding-top: 0;
-    }
+  .hero #newsletter #links p {
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 0;
+  }
 
-    .message {
-        width: 100%;
-    }
+  .message {
+    width: 100%;
+  }
 
-    .hero #newsletter {
-        padding-top: 0px;
-        margin-bottom: 0;
-        flex-wrap: wrap;
-    }
+  .hero #newsletter {
+    padding-top: 0px;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+  }
 
-    .hero #newsletter input {
-        width: 90%;
-        padding: 13px;
-        margin: 7px;
-    }
+  .hero #newsletter input {
+    width: 90%;
+    padding: 13px;
+    margin: 7px;
+  }
 
-    .hero #newsletter button {
-        transform: translateX(0%);
-        transform: translateY(-160%);
-        margin-left: 218px;
-    }
+  .hero #newsletter button {
+    transform: translateX(0%);
+    transform: translateY(-160%);
+    margin-left: 218px;
+  }
 }
