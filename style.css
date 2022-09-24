@@ -25,10 +25,13 @@ body {
 /* Nav */
 
 nav .logo img {
-  width: 174px;
+  width: 5%;
   height: fit-content;
-  margin-top: -50px;
-  margin-bottom: -50px;
+  /* transform: translateY(30%); */
+  /* margin-top: -50px;
+  margin-bottom: -50px; */
+  padding: 0;
+  margin: 0;
 }
 
 .hero ul li {
@@ -145,7 +148,7 @@ p {
 
 /* Media Query */
 
-@media (max-width: 840px) {
+@media (max-width: 845px) {
   .hero #newsletter {
     padding-top: 80px;
   }
