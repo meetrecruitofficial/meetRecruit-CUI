@@ -115,6 +115,7 @@ p {
 .hero #newsletter #links p {
   font-weight: 700;
   font-size: 20px;
+  margin-top: -30px;
 }
 
 .hero #newsletter #links ul li {
@@ -126,6 +127,7 @@ p {
   text-align: center;
   margin: 0 7px;
   opacity: 1;
+  cursor: pointer;
 }
 
 .hero #newsletter #links ul {
@@ -152,6 +154,11 @@ p {
     transform: translateY(-170%);
     margin-left: 290px;
   }
+
+  .hero #newsletter #links p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
 
   .hero #newsletter {
     flex-wrap: nowrap;
@@ -189,7 +196,13 @@ p {
     font-weight: 600;
     font-size: 15px;
     padding-top: 0;
+    margin-top: -18px;
   }
+  .hero #newsletter #links ul {
+    padding: 10px 0;
+    margin-bottom: 3px;
+    margin-top: -15px;
+}
 
   .message {
     width: 100%;
