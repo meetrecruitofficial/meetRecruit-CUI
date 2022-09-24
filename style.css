@@ -27,11 +27,6 @@ body {
 nav .logo img {
   width: auto;
   height: 62px;
-  /* transform: translateY(30%); */
-  /* margin-top: -50px;
-  margin-bottom: -50px; */
-  padding: 0;
-  margin: 0;
 }
 
 .hero ul li {
@@ -58,23 +53,23 @@ p {
 }
 
 #come h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 #come h1 {
   font-weight: 700;
   font-size: 64px;
-  line-height: 80px;
+  line-height: 70px;
   padding: 10px 0;
 }
 
 #come p {
   font-size: 20px;
   font-weight: 700;
-  line-height: 30.57px;
+  line-height: 28.57px;
 }
 
 .hero #newsletter {
@@ -89,11 +84,12 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
+  padding: 0 10px;
 }
 
 .hero #newsletter input {
   width: 378px;
-  padding: 13px;
+  padding: 13px ;
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -120,6 +116,7 @@ p {
   font-weight: 700;
   font-size: 20px;
   margin-top: -45px;
+  padding: 0 10px;
 }
 
 .hero #newsletter #links ul li {
@@ -132,6 +129,7 @@ p {
   margin: 0 7px;
   opacity: 1;
   cursor: pointer;
+  margin-bottom: 35px;
 }
 
 .hero #newsletter #links ul {
@@ -199,8 +197,9 @@ p {
   .hero #newsletter #links p {
     font-weight: 600;
     font-size: 15px;
-    padding-top: 0;
+    padding: 0 15px;
     margin-top: -18px;
+
   }
   .hero #newsletter #links ul {
     padding: 10px 0;
@@ -208,6 +207,9 @@ p {
     margin-top: -15px;
 }
 
+.hero #newsletter .message p {
+  padding: 0 15px;
+}
   .message {
     width: 100%;
   }
