@@ -89,7 +89,7 @@ p {
 
 .hero #newsletter input {
   width: 378px;
-  padding: 13px ;
+  padding: 13px 20px;
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -106,7 +106,7 @@ p {
   color: #fff;
   font-size: 13px;
   font-weight: 500;
-  transform: translateX(-118%);
+  transform: translateX(-98px);
   padding: 4px 10px;
   border: none;
   border-radius: 20px;
@@ -115,8 +115,7 @@ p {
 .hero #newsletter #links p {
   font-weight: 700;
   font-size: 20px;
-  margin-top: -45px;
-  padding: 0 10px;
+  padding: 0 8px;
 }
 
 .hero #newsletter #links ul li {
@@ -126,10 +125,9 @@ p {
   padding: 15px;
   background: #fff;
   text-align: center;
-  margin: 0 7px;
+  margin: 0 5px;
   opacity: 1;
   cursor: pointer;
-  margin-bottom: 35px;
 }
 
 .hero #newsletter #links ul {
@@ -152,7 +150,7 @@ p {
   }
 
   .hero #newsletter button {
-    transform: translateX(0%);
+    transform: translateX(0);
     transform: translateY(-170%);
     margin-left: 290px;
   }
