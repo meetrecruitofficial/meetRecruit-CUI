@@ -70,6 +70,8 @@ p {
   font-size: 20px;
   font-weight: 700;
   line-height: 28.57px;
+  padding: 10px;
+  letter-spacing: 1px;
 }
 
 .hero #newsletter {
@@ -181,8 +183,8 @@ p {
   }
 
   #come h2 {
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
     line-height: 40px;
   }
 
