@@ -51,9 +51,12 @@
           <div class="message">
             <p>Be the first to know when we launch</p>
             <form>
-              <input type="text" placeholder="Enter name" required /> <br />
-            <input type="email" id="email" placeholder="Enter your email address" required="required" />
-            <button type="submit">Subscribe</button>
+              <input type="text" id="name" placeholder="Enter name"/> 
+              <label id="nameError" for="text" style="color: red; visibility: hidden;">Invalid</label>
+              <br />
+            <input type="email" id="email" placeholder="Enter your email address" />
+            <label id="emailError" for="email" style="color: red; visibility: hidden; ">Invalid</label>
+            <button id="btn" type="submit">Subscribe</button>
             </form>
           </div>
           <div id="links">
@@ -92,5 +95,6 @@
       </div>
     </div>
     <script src="//code.tidio.co/dthabzugyszuu2qfupaaccgpgk1cstgi.js" async></script>
+    <script src="script.js"></script>
   </body>
 </html>
